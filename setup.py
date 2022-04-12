@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
  
 setup(
     name='IPCrawl',#包名
-    version='0.2',#版本
+    version='0.3',#版本
     description="IPCrawl",#包简介
     long_description=open('README.md').read(),#读取文件中介绍包的详细内容
     include_package_data=True,#是否允许上传资源文件
