@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: IPCrawl
-Version: 0.2
+Version: 0.3
 Summary: IPCrawl
 Home-page: https://github.com/kabaBZ
 Author: kabaBZ
@@ -18,5 +18,6 @@ Requires-Python: >=3.7
 
 # IP
 ipCRAWL
-
+python setup.py sdist build
+twine upload dist/*
 
